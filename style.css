@@ -1,0 +1,17 @@
+
+
+.my-container {
+ border: 15px solid rgb(89, 89, 224);   
+ display: flex;
+ flex-direction: column;
+}
+ 
+.my-row {
+border: 3px solid red;
+
+
+}
+
+.my-col {
+    border: 3px solid purple
+}

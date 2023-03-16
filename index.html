@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap</title>
+
+</head>
+  <body>
+   
+    
+
+        <div class="container my-container">
+            <div class="row my-row">
+
+                  <!--column 1-->
+
+                <div class="col-sm-12 col-md-5 col-lg-3 my-col">
+                    <h2>My Inbox</h2>
+                    <button type="button" class="btn btn-secondary">Compose</button>
+                    <button type="button" class="btn btn-primary position-relative">
+                        Inbox
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                          99+
+                          <span class="visually-hidden">unread messages</span>
+                        </span>
+                      </button>
+                    
+                    <ul class="nav flex-column">
+                    <ul class="nav flex-column">
+
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Sent</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Drafts</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Saved</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Starred</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Spam</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Archive</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Trash</a>
+                          </li>
+                          <p aria-hidden="true">
+                            <span class="placeholder col-6"></span>
+                          </p>
+                          <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Find" aria-label="Search">
+                        
+                        </ul>
+                        <button type="button" class="btn btn-success">Search Email</button>
+                      </div>
+
+                <!--column 2-->
+
+                   <div class="col-sm-12 col-md-4 col-lg-3 my-col">
+                    <h1>Welcome<span class="badge bg-secondary">BVT</span></h1>
+                    
+                    <nav class="navbar bg-body-tertiary">
+                        <form class="container-fluid justify-content-start">
+                          <button class="btn btn-outline-success me-2" type="button">From</button>
+                          <button class="btn btn-sm btn-outline-secondary" type="button">Subject</button>
+                        </form>
+                      </nav>
+                      <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Christine: Hi BVT, thank you for havng me...
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"> <code>Hi BVT, thank you for havng me as a student.</code></div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Christine: Hi BVT, me again...                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><code>Christina: Hi BVT, me again and I'm looking forward to the next cohort!</code> </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                              Christine: Hey, BVT!
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><code>Hey, BVT! I'm going to play some video games until we meet again!</code></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 13rem;">
+                        <div class="card-body">
+                            <h6 class="card-subtitle mb-2 text-muted">From: Christine Mello
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">To: BVT</h6>
+
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Hi BVT, thank you for havng me as a student.</p>
+                          <a href="#" class="card-link">Reply</a>
+                          <a href="#" class="card-link">Save</a>
+                          <a href="#" class="card-link">Trash</a>
+
+                        </div>
+                      </div>
+                </div>
+
+                 <!--column 3-->
+
+                <div class="col-sm-12 col-md-9 col-lg-6 col-three">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                          <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">From: Christine</h5>
+                            <small>1 day ago</small>
+                          </div>
+                          <p class="mb-1">Had a great time in your class Vanessa.</p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                          <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">From: Christine</h5>
+                            <small class="text-muted">1 day ago</small>
+                          </div>
+                          <p class="mb-1">Something strange is going on..</p>
+                          <small class="text-muted"></small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                          <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">From: Christine</h5>
+                            <small class="text-muted">3 days ago</small>
+                          </div>
+                          <p class="mb-1">We should play Kahoots again soon!</p>
+                          <small class="text-muted"></small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                              <h5 class="mb-1">From: Tinkerbell</h5>
+                              <small class="text-muted">5 days ago</small>
+                            </div>
+                            <p class="mb-1">This isn't Neverland..</p>
+                            <small class="text-muted"></small>
+                          </a>
+                          <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                              <h5 class="mb-1">From: Tinkerbell</h5>
+                              <small class="text-muted">6 days ago</small>
+                            </div>
+                            <p class="mb-1">Are you there? I'm lost!</p>
+                            <small class="text-muted"></small>
+                          </a>
+                          <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                              <h5 class="mb-1">From: Christine</h5>
+                              <small class="text-muted">6 days ago</small>
+                            </div>
+                            <p class="mb-1">My accounts hacked.</p>
+                            <small class="text-muted"></small>
+                          </a>
+                          <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                              <h5 class="mb-1">From: Christine</h5>
+                              <small class="text-muted">7 days ago</small>
+                            </div>
+                            <p class="mb-1">I think there's a bug on my PC!</p>
+                            <small class="text-muted"></small>
+                          </a>
+                          <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                              <h5 class="mb-1">From: Tinkerbell</h5>
+                              <small class="text-muted">8 days ago</small>
+                            </div>
+                            <p class="mb-1">I think I will look around.</p>
+                            <small class="text-muted"></small>
+                          </a>
+                          <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                              <h5 class="mb-1">From: Tinkerbell</h5>
+                              <small class="text-muted">9 days ago</small>
+                            </div>
+                            <p class="mb-1">What's a Kahoot?</p>
+                            <small class="text-muted"></small>
+                          </a>
+                          <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                              <h5 class="mb-1">From: Tinkerbell</h5>
+                              <small class="text-muted">10 days ago</small>
+                            </div>
+                            <p class="mb-1">Hello?</p>
+                            <small class="text-muted"></small>
+                          
+                        </a>
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center">
+                              <li class="page-item disabled">
+                                <a class="page-link">Previous</a>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                              </li>
+                            </ul>
+                          </nav>  
+                      </div>
+                    
+                  </div>
+                  
+               
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
